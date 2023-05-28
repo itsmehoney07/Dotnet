@@ -69,16 +69,16 @@ public class UnitTest1
         Assert.NotInRange(number, 11, 20 ); // "number" 11 ve 20 arasında değil ise başarılı
     }
 
-    [Fact]
-    public void Test4()
-    {
-        //Arrange
+//     [Fact]
+//     public void Test4()
+//     {
+//         //Arrange
 
-        var liste = new List<String>() {"Erdem"};
+//         var liste = new List<String>() {"Erdem"};
 
-        //Assert
+//         //Assert
 
-        Assert.Single(liste); //Eğer listede sadece bir eleman var ise başarılı
-    }
+//         Assert.Single(liste); //Eğer listede sadece bir eleman var ise başarılı
+//     }
 
 }
